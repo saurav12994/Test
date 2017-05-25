@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayoutL xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:autoStart="true"
+        android:flipInterval="2000"
+
+        android:layout_marginTop="2dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/karan"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:maxHeight="150dp"
+            android:adjustViewBounds="true"
+            android:layout_centerInParent="true"
+            android:baselineAlignBottom="false" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/hqdefault"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:maxHeight="150dp"
+            android:adjustViewBounds="true"
+            android:layout_centerInParent="true"/>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/jagga"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:maxHeight="150dp"
+            android:adjustViewBounds="true"
+            android:layout_centerInParent="true"/>
+
+
+
+
+    </ViewFlipper>
+</LinearLayoutL>

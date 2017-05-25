@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1033360622101",
+    "firebase_url": "https://bookmyticket-4114c.firebaseio.com",
+    "project_id": "bookmyticket-4114c",
+    "storage_bucket": "bookmyticket-4114c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033360622101:android:e17fa5943ec43ef8",
+        "android_client_info": {
+          "package_name": "com.example.sourabh.bookmyticket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033360622101-5lnt9p2jkv0t6739vtfh4nuidakr2158.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4K4eoMW5AraMsbSXGhiN5jYiQcGXcmoQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

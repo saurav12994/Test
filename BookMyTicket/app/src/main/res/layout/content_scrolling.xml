@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+
+    android:background="@color/material_grey_300">
+<RelativeLayout
+    android:layout_width="385dp"
+    android:layout_height="640dp"
+    android:id="@+id/rl1">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Total Amount"
+            android:id="@+id/textView51"
+           android:layout_marginTop="7dp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Rs.523"
+            android:layout_marginTop="7dp"
+            android:textColor="#000000"
+            android:id="@+id/textView52"
+            android:layout_toRightOf="@+id/textView51"
+            android:layout_marginLeft="190dp"
+            />
+        <RelativeLayout
+            android:layout_width="380dp"
+            android:layout_height="70dp"
+            android:id="@+id/rl2"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/textView51"
+            android:background="#ffffff">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Mywallet"
+                    android:id="@+id/checkBox1"
+                    android:checked="false"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Insufficient Balance Rs.50.00"
+                    android:id="@+id/textView53"
+                    android:layout_below="@+id/checkBox1"
+                    android:layout_marginTop="5dp"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="380dp"
+            android:layout_height="40dp"
+            android:id="@+id/rl3"
+            android:layout_below="@+id/rl2"
+            android:layout_marginTop="5dp"
+            android:background="#f5f2cb">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Amount Payable"
+                    android:id="@+id/textView54"
+                    android:layout_marginTop="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs.523"
+                    android:id="@+id/text124"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="170dp"
+                    android:layout_toRightOf="@+id/textView54"
+                    android:textStyle="bold" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="OTHER PAYMENTS OPTION"
+            android:textStyle="bold"
+
+            android:id="@+id/textView55"
+            android:layout_below="@+id/rl3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentStart="true" />
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="289dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/listView10"
+            android:layout_below="@+id/textView55"
+            android:layout_alignParentStart="true"
+            android:background="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Note"
+            android:id="@+id/textView57"
+            android:layout_below="@+id/listView10"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="1"
+            android:id="@+id/textView58"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/textView57"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Registration/Tickets once can't be exchanged"
+            android:id="@+id/textView59"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/textView58"
+            android:layout_alignBottom="@+id/textView58"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="2"
+            android:id="@+id/textView60"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/textView58"
+            android:layout_alignParentStart="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="if booked via Credit/Debit Card, the card holder must "
+            android:id="@+id/textView61"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/textView60"
+            android:layout_alignBottom="@+id/textView60"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="be present at the ticket counter"
+            android:id="@+id/textView62"
+            android:layout_below="@+id/textView61"
+            android:layout_toEndOf="@+id/textView57" />
+</RelativeLayout>
+
+</ScrollView>

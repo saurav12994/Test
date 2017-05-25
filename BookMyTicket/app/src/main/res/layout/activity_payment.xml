@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl1"
+
+    tools:context="com.example.sourabh.bookmyticket.PaymentActivity"
+    android:background="#413636">
+    <include
+        android:id="@+id/toolbar1"
+        layout="@layout/tool_bar"
+        />
+   <RelativeLayout
+       android:layout_below="@id/toolbar1"
+       android:layout_marginTop="2dp"
+       android:id="@+id/rl2"
+       android:layout_marginLeft="10dp"
+       android:layout_width="340dp"
+       android:layout_height="240dp"
+
+       android:background="#ffffff">
+
+       <ImageView
+           android:layout_marginLeft="10dp"
+           android:layout_marginTop="10dp"
+           android:layout_width="wrap_content"
+           android:layout_height="140dp"
+           android:scaleType="fitXY"
+           android:id="@+id/imageView4"
+           android:src="@drawable/ra" />
+
+       <TextView
+           android:layout_width="200dp"
+           android:layout_height="wrap_content"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:text="Raess"
+           android:id="@+id/textView21"
+           android:layout_alignTop="@+id/imageView4"
+           android:textColor="#000000"
+           android:layout_alignParentEnd="true" />
+
+       <TextView
+
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="4dp"
+           android:textAppearance="?android:attr/textAppearanceSmall"
+           android:text="Hindi  2D"
+           android:id="@+id/textView22"
+           android:layout_below="@+id/textView21"
+           android:layout_alignLeft="@+id/textView21" />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+           android:id="@+id/textView23"
+           android:layout_marginTop="4dp"
+           android:text="Sunday 09 Apr"
+           android:layout_below="@+id/textView22"
+           android:layout_alignLeft="@+id/textView22"
+           android:textStyle="bold" />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+           android:id="@+id/textView24"
+           android:layout_marginTop="4dp"
+           android:text="11:30PM"
+           android:layout_below="@+id/textView22"
+           android:layout_toRightOf="@+id/textView23"
+           android:textStyle="bold" />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+           android:id="@+id/textView25"
+           android:layout_marginTop="4dp"
+           android:text="Wave Noida"
+           android:layout_below="@+id/textView23"
+           android:layout_alignLeft="@+id/textView23"
+           android:textStyle="bold" />
+
+       <TextView
+           android:layout_width="110dp"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:text="     3"
+           android:textSize="30dp"
+           android:id="@+id/textView26"
+           android:layout_below="@+id/imageView4"
+           android:layout_alignLeft="@+id/imageView4"
+            />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Tickets"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:layout_below="@+id/textView26"
+           android:layout_alignLeft="@+id/imageView4"
+           android:layout_marginLeft="5dp"
+           android:id="@+id/textView28" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+           android:text="31,32,33"
+           android:id="@+id/textView27"
+           android:layout_below="@+id/textView26"
+           android:layout_alignLeft="@+id/textView29"
+            />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:text="Premium"
+           android:id="@+id/textView29"
+           android:layout_above="@+id/textView27"
+           android:layout_toEndOf="@+id/textView22"
+           android:textStyle="bold" />
+
+
+   </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/rl2"
+        android:layout_width="400dp"
+        android:layout_height="265dp"
+        android:background="@drawable/abc_ab_solid_light_holo">
+        <RelativeLayout
+            android:layout_width="380dp"
+            android:layout_height="65dp"
+            android:id="@+id/rl3"
+            android:background="#fefefe">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="SubTotal"
+                android:layout_marginTop="5dp"
+                android:id="@+id/textView30"
+                android:textStyle="bold"
+                android:textColor="#010101" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Rs.450"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="300dp"
+                android:id="@+id/textView31"
+                android:textStyle="bold"
+                android:textColor="#010101" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Internet handling Fees"
+                android:id="@+id/textView32"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/textView30"
+                android:layout_alignLeft="@id/textView30"
+                android:textStyle="normal|bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Rs.70"
+                android:layout_marginTop="5dp"
+                android:id="@+id/textView33"
+                android:textStyle="bold"
+                android:layout_below="@+id/textView31"
+                android:layout_alignLeft="@id/textView31"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="380dp"
+            android:layout_height="65dp"
+            android:id="@+id/rl4"
+
+            android:layout_below="@id/rl3"
+            android:layout_marginTop="7dp"
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Book a Smile"
+                android:id="@+id/textView34"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Rs.3"
+                android:id="@+id/textView35"
+            android:layout_marginLeft="300dp"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="(Rs 1 per ticket)"
+
+                android:id="@+id/textView36"
+                android:layout_below="@+id/textView34"
+                android:textStyle="normal|bold" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="380dp"
+            android:layout_height="65dp"
+            android:id="@+id/rl5"
+
+            android:layout_below="@id/rl4"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+        >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="saurav12994@gmail.com"
+                android:id="@+id/textView37"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="9958043561"
+                android:id="@+id/textView38"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pay Rs.523"
+            android:id="@+id/button8"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/rl5"
+            android:textColor="#ffffff"
+            android:background="#3760dd" />
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/button9"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+
+        android:textColor="#ffffff"
+        android:background="#3edf25" />
+</RelativeLayout>

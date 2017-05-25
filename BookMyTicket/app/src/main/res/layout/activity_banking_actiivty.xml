@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.sourabh.bookmyticket.BankingActiivty"
+    android:background="@color/design_fab_shadow_mid_color">
+    <include
+        android:id="@+id/toolbar14"
+        layout="@layout/tool_bar"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Popular Banks"
+        android:id="@+id/textView41"
+        android:layout_below="@+id/toolbar14"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list23"
+        android:layout_below="@+id/textView41"
+
+        android:layout_marginTop="35dp"
+        android:background="#ffffff" />
+</RelativeLayout>

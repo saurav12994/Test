@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.sourabh.bookmyticket.BarcodeActivity"
+    android:background="#FFF8E1">
+    <include
+        android:id="@+id/toolbar16"
+        layout="@layout/tool_bar"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/t11"
+        android:layout_below="@+id/toolbar16"
+        android:text="                    Congratulation\n                 This is your ticket "/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@+id/t11"
+        android:layout_marginTop="10dp"
+android:layout_marginLeft="100dp"
+        android:text="Your Seat No is." />
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editText"
+        />
+
+
+</RelativeLayout>

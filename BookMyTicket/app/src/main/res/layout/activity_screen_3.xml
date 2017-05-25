@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen3">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/im1"
+            android:src="@drawable/pp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text=" Forget to grab your movie snacks ? No worries! you \n             can still order them after ticket booking"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:layout_below="@+id/im1"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentStart="true" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.sourabh.bookmyticket.DebitActivity">
+    <include
+        android:id="@+id/toolbar13"
+        layout="@layout/tool_bar"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Card Number"
+        android:id="@+id/textView39"
+        android:layout_below="@+id/toolbar13"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold" />
+    <EditText
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:id="@+id/editText6"
+        android:layout_below="@+id/textView39"
+        android:layout_alignLeft="@+id/textView39"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText7"
+        android:hint="Expiry Date"
+        android:layout_below="@+id/editText6"
+        android:layout_alignLeft="@+id/editText6"
+        android:layout_marginTop="8dp"/>
+
+
+    <EditText
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Name on Card"
+        android:ems="10"
+        android:id="@+id/editText9"
+        android:layout_below="@+id/editText7"
+        android:layout_alignLeft="@+id/editText7"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Pay"
+        android:id="@+id/button10"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="#bff5f2" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QuickPay"
+        android:id="@+id/checkBox2"
+        android:layout_below="@+id/editText9"
+        android:layout_alignStart="@+id/editText9"
+        android:layout_marginTop="15dp"
+        android:checked="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Save this card information to my bookmyshow\naccounts and make faster payments"
+        android:id="@+id/textView40"
+        android:layout_below="@+id/checkBox2"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+
+        android:id="@+id/editText8"
+
+        android:layout_below="@+id/editText6"
+        android:layout_toRightOf="@+id/editText7"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:hint="CVV" />
+
+
+</RelativeLayout>
